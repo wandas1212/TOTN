@@ -38,16 +38,18 @@ rm 0.txt 1.txt 2.txt 3.txt ip.txt
 sed -n -e 'H;${x;s/\n/,/g;s/^,//;p;}' ips.txt > finished.txt
 rm ips.txt 
 b=$(cat finished.txt)
+
 #getting only my ip address
 c=$(hostname -I) && d=$(echo -n "${c//[[:space:]]/}")
 
 
 #make sure to install bettercap and also update the caplets
-#scripting bettercap caplet
 
+
+	#scripting bettercap caplet
 #make sure also run caplets.update for the first time and get all caplets then replace the hstshijack with the one that comes with this file
-#sudo rm -rfv /usr/local/share/bettercap/caplets/hstshijack
-#sudo cp -rfv hstshijack /usr/local/share/bettercap/caplets
+sudo rm -rfv /usr/local/share/bettercap/caplets/hstshijack
+sudo cp -rfv hstshijack /usr/local/share/bettercap/caplets
 
 
 
