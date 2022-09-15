@@ -1,10 +1,6 @@
 #!/bin/bash
 
 : << 'COMMENT'
-This is the first line
-This is the second line
-
-
 		#CHANGING MAC-ADDRESS
 
 #Arraying mac-Addresses
