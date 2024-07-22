@@ -1,0 +1,24 @@
+
+		MAKE IT WORK ALWAYS
+sudo nano /etc/systemd/system/nethack.service
+
+"""
+[Unit]
+Description=nethack Service
+After=network.target
+
+[Service]
+ExecStart=/bin/bash /path/to/your/script.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+
+"""
+
+sudo systemctl daemon-reload
+sudo systemctl enable nethack.service
+
+	make sure to add this to bash alias
+alias nethack='sudo systemctl restart nethack.service'
+
