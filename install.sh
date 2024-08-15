@@ -13,35 +13,41 @@ rootperm(){
 
 }
 
-# Check if bettercap is installed
-install_bettercap() {
+# check and install packages
+check_and_install() {
+    local cmd=$1
+    local pkg_name=$2
 
-if command -v bettercap >/dev/null 2>&1; then
-    echo "bettercap is already installed."
-else
-    echo "bettercap is not installed. Installing now..."
-
-    # Detect the package manager and install bettercap
-    if [ -f /etc/debian_version ]; then
-        sudo apt update && sudo apt install bettercap -y
-    elif [ -f /etc/redhat-release ]; then
-        sudo yum install epel-release -y
-        sudo yum install bettercap -y
-    elif [ -f /etc/arch-release ]; then
-        sudo pacman -S bettercap --noconfirm
-    elif [ -f /etc/gentoo-release ]; then
-        sudo emerge -a net-analyzer/bettercap
+    if command -v $cmd >/dev/null 2>&1; then
+        echo "$cmd is already installed."
     else
-        echo "Unsupported Linux distribution. Please install bettercap manually."
+        echo "$cmd is not installed. Installing now..."
+
+        # Detect the package manager and install the package
+        if [ -f /etc/debian_version ]; then
+            sudo apt update && sudo apt install $pkg_name -y
+        elif [ -f /etc/redhat-release ]; then
+            sudo yum install epel-release -y
+            sudo yum install $pkg_name -y
+        elif [ -f /etc/arch-release ]; then
+            sudo pacman -S $pkg_name --noconfirm
+        elif [ -f /etc/gentoo-release ]; then
+            sudo emerge -a $pkg_name
+        else
+            echo "Unsupported Linux distribution. Please install $cmd manually."
+        fi
     fi
-fi
 }
 
-install_bettercap
+
 rootperm
 ./.rootperm.sh
+# Check and install bettercap
+check_and_install "bettercap" "bettercap"
 
-sudo apt-get install gnome-terminal    
+# Check and install gnome-terminal
+check_and_install "gnome-terminal" "gnome-terminal"
+
 
 cd /etc/systemd/system && 
 cat <<EOF > nethack.service
@@ -87,3 +93,5 @@ fi
 
 sudo systemctl daemon-reload
 sudo systemctl enable nethack.service
+
+
