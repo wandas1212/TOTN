@@ -2,20 +2,6 @@
 
 currentdir=$(pwd)
 
-install_bettercap() {
-# Check if bettercap is installed
-if command -v bettercap &> /dev/null; then
-    echo "bettercap is already installed."
-else
-    # Install bettercap
-    echo "Installing bettercap..."
-    sudo apt-get update
-    sudo apt-get install -y bettercap
-    echo "bettercap has been installed."
-
-fi
-}
-
 # Check if the script is run as root
 rootperm(){
   if [ "$(id -u)" -ne 0 ]; then
@@ -25,6 +11,30 @@ rootperm(){
       exit 1
   fi
 
+}
+
+# Check if bettercap is installed
+install_bettercap() {
+
+if command -v bettercap >/dev/null 2>&1; then
+    echo "bettercap is already installed."
+else
+    echo "bettercap is not installed. Installing now..."
+
+    # Detect the package manager and install bettercap
+    if [ -f /etc/debian_version ]; then
+        sudo apt update && sudo apt install bettercap -y
+    elif [ -f /etc/redhat-release ]; then
+        sudo yum install epel-release -y
+        sudo yum install bettercap -y
+    elif [ -f /etc/arch-release ]; then
+        sudo pacman -S bettercap --noconfirm
+    elif [ -f /etc/gentoo-release ]; then
+        sudo emerge -a net-analyzer/bettercap
+    else
+        echo "Unsupported Linux distribution. Please install bettercap manually."
+    fi
+fi
 }
 
 install_bettercap

@@ -1,9 +1,4 @@
 
-make sure Bettercap is installed always in the script
-
-installing bettercap
-https://kalitut.com/how-to-install-and-use-bettercap/
-
 		MAKE IT WORK ALWAYS
 sudo nano /etc/systemd/system/nethack.service
 
