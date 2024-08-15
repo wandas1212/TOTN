@@ -22,7 +22,7 @@ while true; do
                     choice=$(echo "$choice" | tr "[:upper:]" "[:lower:]")  # Convert to lowercase
 
                     if [ "$choice" = "y" ]; then
-                        cd /home/wandas/Desktop/TOTN/update/ && ./test.sh
+                        cd /home/wandas/Desktop/TOTN/ && ./test.sh
                         #sleep 3
                     elif [ "$choice" != "n" ]; then
                         # Exit the program

