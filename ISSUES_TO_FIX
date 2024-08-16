@@ -1,6 +1,13 @@
 Making sure caplet.update is run for the first time, after bettercap is installed
 
+
+
 Make sure script is updated from github whenever script is runned
+Add banners and decoraters to TOTN
+Add name and Gmail
+
+make Iface dynamic in all files 
+the script works for only wifi, make it dynamic
 
 
 Starting BeEF Automatically

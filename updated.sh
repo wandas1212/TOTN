@@ -6,8 +6,11 @@ export DISPLAY=:0
 is_prompt_shown=false
 while true; do
     sleep 2
-    # Check if the eth0/wlan0 network interface is up
-    if ip address show dev wlan0 | grep "state UP" >/dev/null; then
+    #network interfaces
+    up_iface=$(ip -o link show | awk -F': ' '{print $2}' | xargs -I {} sh -c 'ip address show dev {} | grep -q "state UP" && echo {}' | head -n 1)
+
+    # Check if any network interface is up
+    if [ -n "$up_iface" ]; then
     #bssid=$(iwconfig wlan0 | awk '/Access Point/ {print $NF}')
     net_name=$(nmcli -t -f active,ssid dev wifi | grep '^yes' | cut -d':' -f2 | tr ' ' '_')
 

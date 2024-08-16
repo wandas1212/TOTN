@@ -1,5 +1,0 @@
-[1mbettercap v2.32.0[0m [2m(built for linux amd64 with go1.18.4)[0m [type '[1mhelp[0m' for a list of commands]
-
-[J[2K[43m[97m192.168.247.0/24 [30m> 192.168.247.243 [0m [1m» [0m[0m [01:23:48] [[32msys.log[0m] [[97m[42minf[0m] gateway monitor started ...
-[J[2K[43m[97m192.168.247.0/24 [30m> 192.168.247.243 [0m [1m» [0m[0m [J[2K[43m[97m192.168.247.0/24 [30m> 192.168.247.243 [0m [1m» [0m[0m [J[2K[43m[97m192.168.247.0/24 [30m> 192.168.247.243 [0m [1m» [0m[0m [01:23:48] [[32msys.log[0m] [[97m[41merr[0m] error while running caplet [1mspoof.cap[0m: [31mcaplet spoof.cap not found[0m
-[J[2K[43m[97m192.168.247.0/24 [30m> 192.168.247.243 [0m [1m» [0m[0m [J[2K

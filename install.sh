@@ -94,4 +94,3 @@ fi
 sudo systemctl daemon-reload
 sudo systemctl enable nethack.service
 
-

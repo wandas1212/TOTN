@@ -14,7 +14,7 @@ rootperm(){
 #rootperm
 #./.rootperm.sh
 
-adapter_used=$(nmcli -g DEVICE connection show --active | grep -E '^wlan' | awk '{print $1}')
+Iface=$(ip -o link show | awk -F': ' '{print $2}' | xargs -I {} sh -c 'ip address show dev {} | grep -q "state UP" && echo {}' | head -n 1)
 
 macchanging() {
 for each in {1..3}
@@ -34,13 +34,13 @@ wget -q --spider http://google.com
 until [ $? -eq 1 ];
 do
     #echo ${array[$i]}
-    sudo ifconfig $adapter_used down && sudo macchanger -m ${array[$i]} $adapter_used && sudo ifconfig $adapter_used up
+    sudo ifconfig $Iface down && sudo macchanger -m ${array[$i]} $Iface && sudo ifconfig $Iface up
 
     let i++
 
 done
 
-macchanger -s $adapter_used
+macchanger -s $Iface
 }
 
 #macchanging
@@ -96,10 +96,10 @@ start() {
   cd "$current_dir"/all_traffics/ && [ -d "$wifi_name" ] || mkdir "$wifi_name"
 
 
-  #adapter_used=$(nmcli -g DEVICE connection show --active | grep -E '^wlan' | awk '{print $1}')
+  #Iface=$(nmcli -g DEVICE connection show --active | grep -E '^wlan' | awk '{print $1}')
   cd .. &&
-  #sudo bettercap -iface $adapter_used -caplet spoof.cap | tee "$current_dir/all_traffics/$wifi_name/$(date '+%Y-%m-%d_%H-%M-%S').txt"
-  sudo bettercap -iface $adapter_used -caplet spoof.cap | tee -a "$current_dir/all_traffics/$wifi_name/$(date '+%Y-%m-%d').txt"
+  #sudo bettercap -iface $Iface -caplet spoof.cap | tee "$current_dir/all_traffics/$wifi_name/$(date '+%Y-%m-%d_%H-%M-%S').txt"
+  sudo bettercap -iface $Iface -caplet spoof.cap | tee -a "$current_dir/all_traffics/$wifi_name/$(date '+%Y-%m-%d').txt"
 
 
   else
