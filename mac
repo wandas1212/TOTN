@@ -1,7 +1,0 @@
-Interface: wlan0, type: EN10MB, MAC: 34:c9:3d:5b:59:05, IPv4: 192.168.247.243
-Starting arp-scan 1.9.8 with 256 hosts (https://github.com/royhills/arp-scan)
-192.168.247.51	82:ab:6a:61:b0:ec	(Unknown: locally administered)
-192.168.247.69	90:68:c3:e2:69:3f	Motorola Mobility LLC, a Lenovo Company
-
-2 packets received by filter, 0 packets dropped by kernel
-Ending arp-scan 1.9.8: 256 hosts scanned in 1.977 seconds (129.49 hosts/sec). 2 responded

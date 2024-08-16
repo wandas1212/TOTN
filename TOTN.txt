@@ -1,4 +1,0 @@
-use scapy to filter all http and other week traffics and inject beefhook into all devices on the network
-
-use cattlestom to perform automated script injecting to force all devices to download payload
-
