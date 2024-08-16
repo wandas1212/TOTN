@@ -110,7 +110,6 @@ start() {
 }
 
 
-
 # Check if anything is using port 8080
 if sudo lsof -i :8080; then
     # If something is using the port, kill the process
