@@ -20,15 +20,6 @@ WantedBy=multi-user.target
 sudo systemctl daemon-reload
 sudo systemctl enable nethack.service
 
-
-	make sure to add this to bash alias
-
-
-
 	AUTO login to beef
-
-#instructions
-
-
 
 

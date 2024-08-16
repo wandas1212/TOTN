@@ -1,30 +1,48 @@
-Making sure bettercap is installed, if not, auto install it
-
 Making sure caplet.update is run for the first time, after bettercap is installed
+
+
 
 Starting BeEF Automatically
 
+
 Stating bettercap on which interface, auto-detect if it's WLAN or any other interface
+
 
 Injecting a JavaScript into all trafics to pop or execute any of the following
 	BrowserModifier
 	
 	BeEF hook 
 		should be Automated
+		using castelstorm to automatically run BeEF scripts
+		
+		
 		
 clean up after work or closing of the program
 	
-	WILL ADD MORE AS TIME GOES ON.
-
+	
+	
 
 
 always loop and filter all current IPs, and pass them to bettercap, remove IPs that are not connected and add news IPs.
 
+
+
 DNS spoofing
 injecting js code into all browsers
 
-using castelstorm to automatically run BeEF scripts
+Major UPDATE
+create a website that has all updates of browsers saying "YOUR BROWSER IS OUTDATED AND YOU HAVE TO UPDATE IT".
+redirect all traffics to that website, for them to download and install a payload.
 
+
+
+make sure it works for HTTPS
+also if you will use DNS SPOOFing, then you should make it works, most IP addresses are cached and you should be able to bypass that
  
+
+
+
+
+PHISHING FOR WIFI PASSWORD USING PI
 
 

