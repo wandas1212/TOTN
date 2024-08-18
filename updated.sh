@@ -20,9 +20,13 @@ while true; do
             # Launch a new terminal window
             gnome-terminal -- /bin/bash -c '
             
-                while true; do              
+                while true; do  
+                      echo -e "\033[38;5;226m[+]  TAKE OVER THE NETWORK [TOTN] BY WANDAS1212  [+]\n\033[0m"
+                      echo -e "\033[38;5;228m[+]  @WANDAS1212 on telegram  [+]\n\033[0m"
+                      echo -e "\033[38;5;230m[+]  WANDASHEETS1212@GMAIL.COM [+]\n\033[0m" 
+                             
                     # Prompt the user for input
-                    read -p "Do you want to hack '$net_name'  netowrk? (y/n): " choice
+                    read -p "Do you want to hack '$net_name'  network? (y/N): " choice
                     choice=$(echo "$choice" | tr "[:upper:]" "[:lower:]")  # Convert to lowercase
 
                     if [ "$choice" = "y" ]; then
@@ -30,8 +34,21 @@ while true; do
                         #sleep 3
                     elif [ "$choice" != "n" ]; then
                         # Exit the program
-                        echo "Bye!"
-                        sleep 1
+                        echo "
+                                            
+			_____________________________
+                        LETS HACK SOME OTHER TIME!!!
+                        	    BYE!!!
+			----------------------------
+				\   ^__^
+				 \  (oo)\_______
+				    (__)\       )\/\				
+				        ||----w |
+					||     ||
+
+
+                        "
+                        sleep 3
                         exit
                     fi
 
