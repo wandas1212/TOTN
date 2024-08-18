@@ -1,5 +1,6 @@
 #!/bin/bash
-export XAUTHORITY=/home/wandas/.Xauthority
+username=$(whoami)
+export XAUTHORITY=/home/$username/.Xauthority
 export DISPLAY=:0
 
 
