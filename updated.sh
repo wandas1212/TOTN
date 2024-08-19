@@ -8,7 +8,8 @@ is_prompt_shown=false
 while true; do
     sleep 2
     #network interfaces
-    up_iface=$(ip -o link show | awk -F': ' '{print $2}' | xargs -I {} sh -c 'ip address show dev {} | grep -q "state UP" && echo {}' | head -n 1)
+    #up_iface=$(ip -o link show | awk -F': ' '{print $2}' | xargs -I {} sh -c 'ip address show dev {} | grep -q "state UP" && echo {}' | head -n 1)
+    up_iface=$(ip -o link show | awk -F': ' '{print $2}' | grep -E '^(eth|wl|en|wlp)' | xargs -I {} sh -c 'ip address show dev {} | grep -q "state UP" && echo {}' | head -n 1)
 
     # Check if any network interface is up
     if [ -n "$up_iface" ]; then
